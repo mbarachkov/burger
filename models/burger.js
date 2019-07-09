@@ -17,7 +17,7 @@ var burger = {
         var condition = "id" + id;
         orm.update("burgers", {
             devoured: true
-        }, coindition, cb)
+        }, condition, cb)
     }
 }
 module.exports = burger;
